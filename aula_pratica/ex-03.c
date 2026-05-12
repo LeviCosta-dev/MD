@@ -4,6 +4,7 @@
 //----------------------------------------------------------------------------------------//
 
 
+// Funções que vou usar
 int primo(int n);
 int prox_primo(int n);
 
@@ -13,9 +14,13 @@ int prox_primo(int n);
 
 int main(void)
 {
+    printf("Questao: 03\n\n");
+    // Criando a variável que vai receber o número do usuário
     int n, i = 0;
+    printf("Digite um numero para saber seus fatores primos\n");
     scanf("%d", &n);
 
+    printf("Os fatores primos sao:\n");
     printf("%d = ", n);
 
     while(n != 1)
@@ -56,6 +61,7 @@ int main(void)
 //----------------------------------------------------------------------------------------//
 
 
+// Função que checa se um número é primo ou não
 int primo(int n)
 {
     if (n < 2)
@@ -86,6 +92,7 @@ int primo(int n)
 //----------------------------------------------------------------------------------------//
 
 
+// Função que dado um número diz o menor número primo maior que o número dado
 int prox_primo(int n)
 {
     int i = n + 1;
@@ -96,8 +103,3 @@ int prox_primo(int n)
 
     return i;
 }
-
-
-//----------------------------------------------------------------------------------------//
-//----------------------------------------------------------------------------------------//
-//----------------------------------------------------------------------------------------//
