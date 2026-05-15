@@ -4,3 +4,13 @@ body{
 h1{
     color: brown;
 }
+.home_bar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-color: yellowgreen;
+}
+.home_button{
+    padding: 10px;
+    background-color: rgb(255, 230, 0);
+}
